@@ -2,12 +2,13 @@
 
 INSERT INTO BRH.ENDERECO (cep, uf, cidade, bairro)
 VALUES
-('02401-200','SP','São Paulo','Santana');
+('13844-070','SP','São Paulo','MogiGuacu');
 
 INSERT INTO BRH.COLABORADOR (matricula, cpf, nome, salario, departamento, cep,
 logradouro, complemento_endereco) 
 VALUES 
 ('A124','335.578.528.06','fulano de tal',580.55,'DEPTI','02401-200','Rua Voluntários da Pátria','Senac');
+('A124','267.765.248.07','fulano de tal',580.55,'DEPTI','13844-070','Rua Adelio Damiao','Senac');
 
 INSERT INTO BRH.TELEFONE_COLABORADOR (numero, colaborador, tipo)
 VALUES
